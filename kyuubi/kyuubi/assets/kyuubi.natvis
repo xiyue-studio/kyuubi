@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">
+  <Type Name="kyuubi::FilterParameter">
+    <DisplayString>{name} : {requiredType}</DisplayString>
+  </Type>
+  <Type Name="kyuubi::Filter">
+    <DisplayString>{{ Filter: {m_filterName} }}</DisplayString>
+    <Expand>
+      <Item Name="[Filter Name]">m_filterName</Item>
+      <Item Name="[Description]">m_description</Item>
+      <Item Name="[Input Types]">m_inputTypes</Item>
+      <Item Name="[Return Type]">m_returnType</Item>
+      <Item Name="[Parameters]">m_parameters</Item>
+    </Expand>
+  </Type>
+</AutoVisualizer>

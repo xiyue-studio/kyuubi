@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{9f14354f-219c-4406-b657-76b2f44061cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vm">
+      <UniqueIdentifier>{a9e130ad-6cb1-462a-a93b-946779a36b01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="exceptions">
+      <UniqueIdentifier>{57b3aaa7-cd7b-4691-b100-95b3ea4a6483}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filters">
+      <UniqueIdentifier>{ab0c65d0-3a1c-40b5-9e48-edd7f3654995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kyuubi">
+      <UniqueIdentifier>{78b3afa4-08e1-4290-968e-de241706ad9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lexers">
+      <UniqueIdentifier>{765ee599-6ce3-47b1-b3c9-9942743ac257}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="parsers">
+      <UniqueIdentifier>{5c1c2ad3-4d67-4375-8568-a7d0e32520c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filters\builtin filters">
+      <UniqueIdentifier>{8c1af1be-0f53-4e3b-9a26-dd822a456a4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools">
+      <UniqueIdentifier>{3fdcda15-1e39-405a-8fed-f205b1f29401}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src/stdafx.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src/targetver.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kyuubi_lexer_types.h">
+      <Filter>lexers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kyuubi_lexer.h">
+      <Filter>lexers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kyuubi_vm_types.h">
+      <Filter>vm</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kyuubi_vm.h">
+      <Filter>vm</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kyuubi_parser.h">
+      <Filter>parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kyuubi_dumper.h">
+      <Filter>vm</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kyuubi_std_string_dumper.h">
+      <Filter>vm</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kyuubi_filter_manager.h">
+      <Filter>filters</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kyuubi_filter.h">
+      <Filter>filters</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kyuubi_vm_environment.h">
+      <Filter>vm</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kyuubi_exception.h">
+      <Filter>exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kyuubi_runtime_exception.h">
+      <Filter>exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kyuubi_kyuubi.h">
+      <Filter>kyuubi</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kyuubi_vm_generator.h">
+      <Filter>vm</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kyuubi_lexer_token.h">
+      <Filter>lexers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kyuubi_syntax_exception.h">
+      <Filter>exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kyuubi_arithmetic_exception.h">
+      <Filter>exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kyuubi_invalid_type_exception.h">
+      <Filter>exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kyuubi_format_real_filter.h">
+      <Filter>filters\builtin filters</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kyuubi_indent_filter.h">
+      <Filter>filters\builtin filters</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kyuubi_camel_case_filter.h">
+      <Filter>filters\builtin filters</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kyuubi_kyuubi_generator.h">
+      <Filter>kyuubi</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kyuubi_escape_cpp_filter.h">
+      <Filter>filters\builtin filters</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/stdafx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kyuubi_lexer.cpp">
+      <Filter>lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kyuubi_parser.cpp">
+      <Filter>parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kyuubi_vm.cpp">
+      <Filter>vm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kyuubi_vm_environment.cpp">
+      <Filter>vm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kyuubi_vm_generator.cpp">
+      <Filter>vm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kyuubi_kyuubi.cpp">
+      <Filter>kyuubi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kyuubi_kyuubi_generator.cpp">
+      <Filter>kyuubi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kyuubi_filter_manager.cpp">
+      <Filter>filters</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kyuubi_lexer_token.cpp">
+      <Filter>lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kyuubi_filter.cpp">
+      <Filter>filters</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kyuubi_format_real_filter.cpp">
+      <Filter>filters\builtin filters</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kyuubi_indent_filter.cpp">
+      <Filter>filters\builtin filters</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kyuubi_camel_case_filter.cpp">
+      <Filter>filters\builtin filters</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kyuubi_vm_types.cpp">
+      <Filter>vm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kyuubi_escape_cpp_filter.cpp">
+      <Filter>filters\builtin filters</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="templates\generated_header.wanling">
+      <Filter>kyuubi</Filter>
+    </None>
+    <None Include="templates\generated_code.wanling">
+      <Filter>kyuubi</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="assets\kyuubi.natvis">
+      <Filter>tools</Filter>
+    </Natvis>
+  </ItemGroup>
+</Project>
